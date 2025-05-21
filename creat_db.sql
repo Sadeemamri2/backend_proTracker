@@ -1,0 +1,5 @@
+CREATE DATABASE proTracker;
+
+CREATE USER admin WITH PASSWORD 'password';
+
+GRANT ALL PRIVILEGES ON DATABASE proTracker TO admin;
